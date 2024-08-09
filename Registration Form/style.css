@@ -1,0 +1,61 @@
+#tableData{
+    background-color: rgb(24, 145, 145);
+    width: 100%;
+}
+
+#data{
+    display: flex;
+    justify-content: center;
+    border-style : solid dotted;
+    border-color :rgb(0, 0, 0);
+    width:100% ;
+}
+
+#h1{
+    font-size:50px ;margin-top: 10px; margin-bottom: 10px ;
+}
+
+#list{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.submit{
+    border-style: solid;
+    height: 30px;
+    width: 40%;
+}
+
+.submit:hover{
+    background-color: green;
+    border-radius: 20%;
+    color: white;
+}
+
+.reset{
+    border-style: solid;
+    height: 30px;
+    width: 40%;
+}
+
+.reset:hover{
+    background-color: red;
+    border-radius: 20%;
+    color: white;
+}
+
+th:first-child{
+    text-align:left;
+}
+#root{
+    border-spacing: 15px;
+}
+#dob{
+   width:10%
+}
+#add{
+    width:65%
+}
+.wide{
+    width:45%
+};

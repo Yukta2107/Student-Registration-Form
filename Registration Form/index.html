@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=700, initial-scale=1.0">
+    <title>Document</title>
+<link href="style.css" rel="StyleSheet">
+</head>
+<body>
+    <table id="tableData">
+        <tr>
+            <td>
+            
+                <table id="data">
+                    <tr>
+                        <td><h1 id="h1">
+                        Student Registration Form</h1></td>
+                    </tr>
+                </table>
+            
+            </td>
+        </tr>
+        <tr id="list">
+            <td>
+                <form>
+                    <table width="90%"  style="margin-left:auto;margin-right:auto"id="root" >
+                        <tr>
+                            <th><label for="name">Name :</label></th> 
+                            <td><input type="text" placeholder="Enter full name" id="name" class="wide"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="fname">Father's Name :</label></th> 
+                            <td><input type="text" id="fname"class="wide"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="mname">Mother's Name :</label></th> 
+                            <td><input type="text" id="mname"class="wide"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="phone">Phone Number :</label></th> 
+                            <td><input type="text" id="phone" placeholder="017xxxxxxxxx"class="wide"></td>
+                        </tr>
+                        <tr >
+                            <th><label for="email">Email :</label></th> 
+                            <td><input type="email" id="email" placeholder="sample@example.com" class="wide"></td>
+                        </tr>
+                        <tr >
+                            <th><label for="phone">Gender :</label></th> 
+                            <td><input type="radio" id="phone" name="Gender" value="male">Male
+                                <input type="radio" id="phone" name="Gender" value="female">Female
+                                <input type="radio" id="phone" name="Gender" value="others">Others </td>
+                        </tr>
+                        <tr>
+                            <th><label for="dob">Date Of Birth :</label></th> 
+                            <td><input type="text" id="dob"> - <input type="text" id="dob"> - <input type="text" id="dob"><i>(dd-mm-yyyy)</i></td>
+                        </tr>
+                        <tr>
+                            <th><label for="add">Address :</label></th> 
+                            <td><input type="text" id="add" placeholder="Street -  House -  Road"></td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="bg">Blood Group :</label>
+                            </th>
+                            <td><select name="Bloodgroup" id="bg" >
+                                <option value="a" >A</option>
+                            <option value="b">B</option>
+                            <option value="o">O</option>
+                            <option value="ab">AB</option></select></td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="dept">Department :</label>
+                            </th>
+                           <td> <input type="radio" id="dept"name="dept" value="cse">CSE
+                            <input type="radio" id="dept"name="dept" value="cse">EEE
+                            <input type="radio" id="dept"name="dept" value="cse">BBA
+                            <input type="radio" id="dept"name="dept" value="cse">BCA
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label for="course">Course :</label></th>
+                            <td><input type="checkbox" name="course" id="course" value="c">C<input type="checkbox" id="course" value="c++" >C++<input type="Checkbox" id="course" value="Java">Java<input type="Checkbox" id="course" value="ai">AI<input type="Checkbox" id="course" value="ml">Machine Learning<input type="Checkbox" id="course" value="robotics">Robotics</td>
+                        </tr>
+                       
+                        <tr >
+                            <td><input type="submit" class="submit"> &nbsp;&nbsp; <input type="reset" class="reset"></td>
+                            
+                        </tr>
+
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
