@@ -28,7 +28,7 @@ both **Submit** and **Reset** buttons.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Yukta2107/Student-Registration-Form.git
+    git clone https://github.com/Yukta2107/Student-Registration-Form
     ```
 2. Navigate to the project directory:
     ```bash
