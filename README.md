@@ -34,7 +34,6 @@ both **Submit** and **Reset** buttons.
     ```bash
     cd Student-Registration-Form
     ```
-
 ## Usage
 
 - Open the `index.html` file in your web browser to view the form.
