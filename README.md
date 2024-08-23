@@ -32,7 +32,7 @@ both **Submit** and **Reset** buttons.
     ```
 2. Navigate to the project directory:
     ```bash
-    cd student-registration-form
+    cd Student-Registration-Form
     ```
 
 ## Usage
@@ -42,6 +42,9 @@ both **Submit** and **Reset** buttons.
 - Click **Submit** to send the form data.
 - Click **Reset** to clear the form fields.
 
+## Screenshots
+
+![Screenshot (155)](https://github.com/user-attachments/assets/7202b38d-b7e3-4b52-b2ac-ed05f4b26d71)
 
 ## Contributing
 
